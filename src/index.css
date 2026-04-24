@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* LIGHT MODE */
+:root {
+  --bg: #fefaf0;
+  --text: #3b2f2f;
+  --card: #ffffff;
+  --primary: #d4af37;
+  --primary-dark: #b8962e;
+}
+
+/* DARK MODE */
+.dark {
+  --bg: #0f0f0f;
+  --text: #f5e6c8;
+  --card: #1a1a1a;
+  --primary: #d4af37;
+  --primary-dark: #a8862c;
+}
+
+/* Base styling */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Times New Roman", serif;
+}
+
+/* Reusable input */
+.input {
+  @apply w-full p-3 my-2 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-transparent focus:outline-none focus:ring-2 focus:ring-[var(--primary)];
+}
