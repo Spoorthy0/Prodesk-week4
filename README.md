@@ -12,13 +12,9 @@ You upload your resume as a PDF, fill in the company name, job role, and paste t
 
 ## Screenshots
 
-> _Add screenshots here_
+![alt text](public/Prodesk-Mission-4-04-24-2026_11_08_PM.png)
 
-<!-- Example:
-![Light Mode](./screenshots/light.png)
-![Dark Mode](./screenshots/dark.png)
-![Cover Letter Output](./screenshots/result.png)
--->
+![alt text](public/Prodesk-Mission-4-04-24-2026_11_11_PM.png)
 
 ---
 
